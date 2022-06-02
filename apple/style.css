@@ -1,0 +1,171 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(212, 208, 207);
+    color: white;
+  }
+
+nav{
+/* position: fixed; */
+background-color: black;
+color: lightgray;
+width: 100%;
+font-size: 12pt;
+padding-top: 3.5px;
+
+}
+    body{
+        width: 100%;
+        margin: 0 auto;
+        background-image: url(imagine2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+.lista{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.lista-footer{
+   
+    margin: auto;
+    display: grid;
+    grid-template-columns: max-content;
+    align-items: center;
+    padding: 10px 50px;
+}
+.banane{
+    
+    align-items: center;
+}
+
+.lista li{
+    list-style: none;
+    margin-left: 60px;
+}
+
+.lista-footer li{
+    list-style: none;
+    margin-left: 60px;
+}
+.lista li a{
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+}
+.lista-footer li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    grid-template-rows: max-content;
+}
+
+/* li{
+    list-style: none;
+    margin-left: 60px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+} */
+
+.unicef{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.apple-1 {
+    padding-top: 40px;
+    text-align: center;
+
+}
+  
+
+
+
+.section-3{
+
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 0.6fr 0.8fr ;
+    grid-auto-rows: 300px;
+    
+}
+
+.product-item-1{
+    text-align: center;
+
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 10px; */
+   
+    
+}
+
+    .elsi123{
+background-color: black;
+height: 250px;
+width: 400px;
+    }
+
+.product-item-2{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.elsi777{
+    background-color: blueviolet;
+    height: 250px;
+    width: 450px;
+}
+.product-item-3{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    /* padding-top: 30px;
+    margin-top: 30px; */
+}
+.elsi888{
+    background-color: aqua;
+    height: 250px;
+    width: 450px;
+}
+.product-item-4{
+    text-align: center;
+    background-color: rgb(253, 255, 255);
+margin-bottom: 200px;  
+}
+.elsi999{
+    background-color: aquamarine;
+    height: 250px;
+    width: 450px;
+}
+
+
+.elsielsi{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+grid-auto-rows: 300px;
+
+
+}
+
+.footer-class{
+    display: grid;
+    grid-auto-rows:150px;
+}
+h2{
+    color: black;
+}
+
+
+
+
+
